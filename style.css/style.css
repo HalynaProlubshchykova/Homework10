@@ -1,0 +1,232 @@
+/*General styles*/
+body {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  position: relative;
+  background: #ffffff;
+  width: 1440px;
+  height: 1173px;
+  margin: 0;
+}
+
+/*Header styles*/
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: #ffffff;
+}
+.header__logo {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  margin-left: 135px;
+  margin-top: 10px;
+}
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  margin-left: 511px;
+  margin-top: 10px;
+}
+.nav__item {
+  display: inline;
+  width: 600px;
+  height: 24px;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.nav__link {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+.nav__link:hover {
+  color: #18b5dc;
+}
+.header__button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+  position: absolute;
+  width: 130px;
+  height: 42px;
+  margin-left: 1174px;
+  margin-top: 19px;
+  border: 1px solid #3c3c3c;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+.header__button:hover {
+  color: white;
+  background-color: #18b5dc;
+}
+
+/*Main styles*/
+.main {
+  position: absolute;
+  width: 1440px;
+  height: 833px;
+  margin-left: 0px;
+  margin-top: 80px;
+  background-color: #f6f6f6;
+}
+.main__content {
+  position: absolute;
+  width: 1170px;
+  height: 533px;
+  margin-left: 135px;
+  margin-right: 135px;
+  margin-top: 150px;
+}
+
+.main__top {
+  position: absolute;
+  width: 570px;
+  height: 140px;
+  margin-left: 435px;
+  margin-right: 435px;
+  margin-top: -50px;
+}
+.top__title {
+  position: absolute;
+  width: 368px;
+  height: 34px;
+  margin-left: -25px;
+  margin-top: 60px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+.top__divider {
+  margin-left: 135px;
+  margin-top: 120px;
+  padding: 0;
+  border-bottom: 4px solid #dddbdb;
+  width: 45px;
+}
+.top__subtitle {
+  position: absolute;
+  width: 570px;
+  height: 42px;
+  margin-left: -140px;
+  margin-top: 35px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #3c3c3c;
+}
+.team__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  isolation: isolate;
+  position: absolute;
+  width: 1170px;
+  height: 333px;
+  margin-left: -35px;
+  margin-top: 200px;
+}
+.team__item {
+  list-style: none;
+  display: inline-block;
+  width: 270px;
+  height: 333px;
+}
+
+.member__photo {
+  width: 270px;
+  height: 270px;
+}
+.member__name {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #282528;
+}
+.member__position {
+  display: block;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #646464;
+}
+
+/*Footer styles*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 135px;
+  gap: 20px;
+  isolation: isolate;
+  position: absolute;
+  width: 1440px;
+  height: 260px;
+  margin-left: -150px;
+  margin-top: 913px;
+  background: #ffffff;
+}
+
+.footer__logo {
+  width: 170px;
+  height: 60px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 0px;
+  gap: 30px;
+  width: 384px;
+  height: 22px;
+  margin-top: 0px;
+}
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 0px;
+  padding: 0px;
+  gap: 10px;
+  width: 250px;
+  height: 42px;
+  list-style: none;
+}
+.social__item {
+  width: 42px;
+  height: 42px;
+}
